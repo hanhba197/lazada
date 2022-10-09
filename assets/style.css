@@ -98,38 +98,18 @@
     .dad .child:hover .dad {
         display: block;
         cursor: pointer;
-        animation: delay .1s ease;
-
     }
 
     .dad>.child:hover>i {
         color: #f36d00;
         background-color: #eff0f5;
         cursor: pointer;
-        animation: delay .1s ease;
     }
 
     .dad .child:hover {
         color: #f36d00;
         background-color: #eff0f5;
         cursor: pointer;
-        animation: delay .1s ease;
-
-    }
-
-    .bar-container .child-lv1:hover {
-        animation: delay .1s ease;
-    }
-
-    @keyframes delay {
-        from {
-            transform: translateY(1px);
-        }
-
-        to {
-            transform: translateX(0px);
-        }
-
     }
 
     .dad .child i {
@@ -225,7 +205,7 @@
         height: 75px;
 
     }
-    
+
     #header .header-container:hover {
         cursor: pointer;
     }
